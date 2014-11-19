@@ -1,0 +1,11 @@
+<div class="site transition-all">
+    <div class="site-menu transition-all" id="site-menu"></div>
+    <div class="site-content transition-all">
+        <div id="site-views" class="site-views">
+            {{#each views}}
+            <div class="site-view" data-page="{{@key}}"></div>
+            {{/each}}
+        </div>
+    </div>
+    <div id="site-footer" class="site-footer transition-all"></div>
+</div>
