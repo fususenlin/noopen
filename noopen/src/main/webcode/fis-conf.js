@@ -1,6 +1,6 @@
 // 排除源码目录下的node_modules目录，不对其进行构建
 fis.config.set('project.exclude', 'node_modules/**');
-fis.config.set('project.exclude', 'server/**');
+//fis.config.set('project.exclude', 'server/**');
 
 
 // 利用package.json文件定义项目名和版本
@@ -73,3 +73,12 @@ fis.config.set('settings.optimizer.html-minifier', {
     conservativeCollapse: true,
     removeAttributeQuotes: true
 });
+/*fis.config.merge({
+    roadmap: {
+        path: [
+            {
+                reg: /^\/views\/(.*)/i,
+                release: '/$1'
+            }]
+    }
+});*/
