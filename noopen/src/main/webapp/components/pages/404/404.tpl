@@ -1,1 +1,0 @@
-<div class="not-found"></div>

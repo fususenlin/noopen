@@ -1,5 +1,7 @@
 // 排除源码目录下的node_modules目录，不对其进行构建
 fis.config.set('project.exclude', 'node_modules/**');
+fis.config.set('project.exclude', 'server/**');
+
 
 // 利用package.json文件定义项目名和版本
 var meta = require('./package.json');

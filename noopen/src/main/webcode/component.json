@@ -1,0 +1,7 @@
+{
+    "name": "noopen",
+    "version": "0.1.0",
+    "dependencies": {
+        "scrat-team/es5-safe": "0.1.0"
+    }
+}
